@@ -440,7 +440,7 @@ mychilds = {
 
 import json
 
-x =  '{ "name":"John", "age":30, "city":"New York", "isTeacher": true, "lastname": null}'
-print(x)
+x =  '{"name":"John", "age":30, "city":"New York", "isTeacher": true, "lastname": null}'
+# print(x)
 
 x = json.loads(x)
